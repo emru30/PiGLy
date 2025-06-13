@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to right, #fce4ec, #f8bbd0);
+}
+
+.register-container {
+    max-width: 400px;
+    margin: 80px auto;
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    font-size: 36px;
+    color: #e988eb;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.step-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+.error__message {
+    color: #e91e63;
+    font-size: 13px;
+    margin-top: 4px;
+    text-align: left;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ececec;
+}
+
+.submit-button {
+    background: linear-gradient(to right, #c084fc, #f9a8d4);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login__link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login__link a {
+    color: #92c2e4;
+    text-decoration: underline;
+}

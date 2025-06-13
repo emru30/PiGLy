@@ -1,0 +1,33 @@
+PiGLy
+体重管理アプリ
+
+#環境構築
+Dockerビルド
+docker-compose up -d --build
+
+##Laravel環境構築
+1．docker-compose exec php bash
+2. composer install
+3.envの環境変数を追加
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel_user
+DB_PASSWORD=laravel_pass
+4. php artisan key:generate
+5. php artisan migrate
+6. php artisan db:seed
+7. php artisan storage:link
+
+###実行環境
+・PHP8.3-fpm
+・Laravel8.0
+・MySQL8.0.26
+
+####ER図
+vscode-remote://wsl%2Bubuntu/home/saa30/coachtech/laravel/pigly/ER.
+
+#####URL
+・開発環境：http://localhost/
+・phpMyAdmin：http://localhost:8080/
